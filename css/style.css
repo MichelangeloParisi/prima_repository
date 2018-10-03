@@ -1,0 +1,135 @@
+body{
+
+	margin: 0;
+}
+
+
+.navigation {
+
+	display: flex;
+	justify-content: flex-end; 
+
+	
+}
+
+.navigation ul {
+
+	list-style-type: none;
+	
+}
+
+.navigation li {
+
+	display: inline;
+	text-decoration: none;
+	margin-right: 25px;
+}
+
+.navigation a{
+
+	color: #000;
+	text-decoration: none;
+}
+
+#slider {
+
+  	background: url("https://cms.hostelworld.com/hwblog/wp-content/uploads/sites/2/2017/08/girlgoneabroad.jpg") no-repeat center center; 
+  	background-size: cover;
+  	background-attachment: fixed;
+  	width: 100%;
+  	height: 500px;
+  	position: relative;
+
+}
+
+
+	#slider .caption{
+		text-align: center;
+	  	position: absolute;
+	  	top: 50%;
+	  	left: 50%;
+	  	transform: translate(-50%, -50%);
+	  	color: white;
+
+	 }
+
+
+	 #slider .caption h3{
+
+	 	font-size: 20px;
+	 }
+
+
+
+#proposte {
+
+	margin-bottom: 50px;
+}
+
+#proposte h2 {
+
+	font-size: 25px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.proposte {
+
+	margin-top: 30px;	
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 30px;
+}
+
+.proposte a {
+
+	text-decoration: none;
+	color: #000;
+}
+
+.proposte a:hover {
+
+	text-decoration: none;
+	color: #000;
+}
+
+
+
+
+.box {
+
+	width: 25%;
+	height: auto;
+	border: 1px solid #c6c6c6;
+}
+
+.box p, h3 {
+
+	padding-top: 25px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.box img {
+
+	width: 100%;
+}
+
+
+
+
+footer{
+
+	display: flex;
+	justify-content: space-around;
+	height: auto;
+	background-color: #c6c6c6;
+	
+}
+
+.info{
+
+	padding: 25px 30px;
+}
+
+
